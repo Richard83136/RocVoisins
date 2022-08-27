@@ -1,0 +1,18 @@
+.fondecran{
+  background-image:linear-gradient(rgba(184, 224, 197, 0.4), rgba(237, 241, 245, 0.7)),url('/assets/img/hands.png');
+  width:100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.page{
+  width:100%;
+  height:100%;
+  padding-bottom: 2%;
+}
+.card{
+  margin-bottom: 10%;
+}

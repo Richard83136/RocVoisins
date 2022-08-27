@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil</title>
+</head>
+<body class="fondecran">
+  <div class=" container-fluid page"><br>
+ <h1 class="text-center ">Bienvenue sur RocVoisins</h1>
+<div class="container mt-5">
+  <img class="d-block mx-auto my-5 w-50 " src="assets/img/presentation.png" alt="">
+</div>
+<div class="card container ">
+  <div class="row">
+    <div class="col ">
+      <div class="card" style="width: 100%;">
+        <img src="assets/img/menage.png" class="card-img-top " alt="...">
+          <div class="card-body ">
+            <h5 class="card-title text-center">Du ménage</h5>
+              <p class="card-text text-center">Nous vous proposons de l'aide pour votre ménage quotidien</p>
+                <a class="btn btn-primary d-block " [routerLink]="['/menage']">Voir la page</a>
+          </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card" style="width: 100%;">
+        <img src="assets/img/jardin.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title text-center">Du jardinage</h5>
+              <p class="card-text text-center">Nous faisons aussi l'entretien de votre jardin </p>
+                <a class="btn btn-primary d-block " [routerLink]="['/jardinage']">Voir la page</a>
+          </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card" style="width: 100%;">
+        <img src="assets/img/travauxinterieur1.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title text-center">Des petits travaux</h5>
+              <p class="card-text text-center">Maçonnerie, reparation voiture, travaux intérieurs</p>
+                <a class="btn btn-primary d-block " [routerLink]="['/petits_travaux']">Voir la page</a>
+          </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card" style="width: 100%;">
+        <img src="assets/img/plomberie.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title text-center">La plomberie</h5>
+              <p class="card-text text-center">Réparer, entretenir, améliorer votre plomberie défaillante.</p>
+                <a class="btn btn-primary d-block " [routerLink]="['/plomberie']">Voir la page</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

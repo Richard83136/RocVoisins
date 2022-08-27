@@ -1,0 +1,18 @@
+.titre{
+  color:grey;
+  animation-duration: 2s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+}
+@keyframes clignoter {
+  0%   { opacity:1; }
+  50% {opacity: 0;}
+  100% { opacity:1; }
+}
+.lien{
+  color:blue;
+}
+.lecture{
+  font-size: 30px;
+}
